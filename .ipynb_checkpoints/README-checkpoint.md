@@ -18,7 +18,7 @@ Details for Milestone are available on Canvas (left sidebar, Course Project) or 
 ## Team Members
 
 - Person 1: Hey I'm Emma and I am a third year statistics major :)
-- Person 2: I am Destiny and I am a fourth year chemistry major!
+- Person 2: one sentence about you!
 - Person 3: one sentence about you!
 
 ## References
