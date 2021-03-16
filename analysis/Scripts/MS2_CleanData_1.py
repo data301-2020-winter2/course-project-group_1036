@@ -9,13 +9,14 @@ import numpy as np
 
 def load_clean_Art_and_History(path):
     Art_and_History = (pd.read_csv(path, header = 'infer')
-                     .rename(columns = {'User':'Google User ID','Category 1':'Churches','Category 2':'Resorts','Category 3':'Beaches',
-                          'Category 4':'Parks','Category 5':'Theatres','Category 6':'Museums','Category 7':'Malls','Category 8':'Zoos',
+                     .rename(columns = {'User':'Google User ID','Category 1':'Churches','Category 2':'Resorts',
+                          'Category 3':'Beaches','Category 4':'Parks','Category 5':'Theatres',
+                          'Category 6':'Museums','Category 7':'Malls','Category 8':'Zoos',
                           'Category 9':'Restaurants','Category 10':'Pubs & Bars','Category 11':'Local Services',
                           'Category 12':'Burger & Pizza Shops','Category 13':'Hotels & Lodgings','Category 14':'Juice Bars',
-                          'Category 15':'Art Galleries','Category 16':'Dance Clubs','Category 17':'Swimming Pools','Category 18':'Gyms',
-                          'Category 19':'Bakeries','Category 20':'Beauty & Spas','Category 21':'Cafes','Category 22':'View Points',
-                          'Category 23':'Monuments','Category 24':'Gardens'})
+                          'Category 15':'Art Galleries','Category 16':'Dance Clubs','Category 17':'Swimming Pools',
+                          'Category 18':'Gyms','Category 19':'Bakeries','Category 20':'Beauty & Spas',
+                          'Category 21':'Cafes','Category 22':'View Points', 'Category 23':'Monuments','Category 24':'Gardens'})
 
 
                     .drop(['Resorts', 'Beaches', 'Parks', 'Malls', 'Zoos', 'Restaurants','Pubs & Bars','Local Services',
