@@ -24,7 +24,7 @@ def load_clean_Art_and_History(path):
                     )
     Art_and_History = Art_and_History[(Art_and_History != 0).all(1)]
 
-    Art_and_History.to_csv('../data/processed/Art_and_History_Cleaned.csv')
+    #Art_and_History.to_csv('../../data/processed/Art_and_History_Cleaned.csv')
 
     return Art_and_History
 
@@ -45,7 +45,7 @@ def load_clean_Food_and_Beverage(path):
                     )
     Food_and_Beverage = Food_and_Beverage[(Food_and_Beverage != 0).all(1)]
 
-    Food_and_Beverage.to_csv('../data/processed/Food_and_Beverage_Cleaned.csv')
+    Food_and_Beverage.to_csv("../../data/processed/Food_and_Beverage.csv")
 
     return Food_and_Beverage
 
@@ -66,7 +66,7 @@ def load_clean_Ammenities(path):
                     )
     Ammenities = Ammenities[(Ammenities != 0).all(1)]
 
-    Ammenities.to_csv('../data/processed/Ammenities_Cleaned.csv')
+    #Ammenities.to_csv('../../data/processed/Ammenities.csv')
 
     return Ammenities
 
@@ -89,8 +89,8 @@ def load_clean_Recreation(path):
     
     Outdoors = Recreation.drop(['Resorts','Zoos','Dance Clubs','Swimming Pools','Beauty & Spas'], axis = 1)
                      
-    Recreation.to_csv('../data/processed/Recreation_Cleaned.csv')
-    Outdoors.to_csv('../data/processed/Recreation_Outdoors_Cleaned.csv')
+    #Recreation.to_csv('../../data/processed/Recreation.csv')
+    #Outdoors.to_csv('../../data/processed/Outdoors.csv')
     
     return Recreation, Outdoors
 
