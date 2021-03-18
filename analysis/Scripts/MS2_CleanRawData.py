@@ -45,7 +45,7 @@ def load_clean_Food_and_Beverage(path):
                     )
     Food_and_Beverage = Food_and_Beverage[(Food_and_Beverage != 0).all(1)]
 
-    Food_and_Beverage.to_csv("../../data/processed/Food_and_Beverage.csv")
+    #Food_and_Beverage.to_csv("../../data/processed/Food_and_Beverage.csv")
 
     return Food_and_Beverage
 
