@@ -30,4 +30,8 @@ This dataset represents the average Google review rating on a scale from 1-5 for
 
 [3] Renjith, Shini, A. Sreekumar, and M. Jathavedan. 2018. â€œEvaluation of Partitioning Clustering Algorithms for Processing Social Media Data in Tourism Domainâ€. In 2018 IEEE Recent Advances in Intelligent Computational Systems (RAICS), 127â€“31. IEEE.
 
+## Lab 7 Tableau Links
+# Emma's Dashboard
+https://us-west-2b.online.tableau.com/#/site/data301/workbooks/346919?:origin=card_share_link
+# Destiny's Dashboard
 
